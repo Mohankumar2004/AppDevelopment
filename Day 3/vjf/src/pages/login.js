@@ -23,24 +23,21 @@ function Login() {
   return (
     <div className='center'>
       <form onSubmit={handleSubmit}>
-      <h2>Login</h2>
+      <h2 style={{marginLeft:"150px"}}>Login</h2>
         <div className='email'>
         <label>
-        Email
-        <input type="email" value={Username} onChange={(e) => setUsername(e.target.value)} name='Username' required     />
+        <input type="email" value={Username} placeholder='Enter Your Email ID' onChange={(e) => setUsername(e.target.value)} name='Username' required    style={{marginLeft:"50px",maxWidth:"250px"}} />
         </label>
         </div>
         <div className='password'>
         <label>
-        Password
-        <input type="Password" value={Password} onChange={(e) => setPassword(e.target.value)} name='Password' reqired />
+        <input type="Password" value={Password}  placeholder='Enter Password' onChange={(e) => setPassword(e.target.value)} name='Password' reqired  style={{marginLeft:"50px",maxWidth:"250px"}} />
         </label>
         </div>
         <div className='submitbutton'>
-        <button type='submit' >Submit </button>
-        <p>if not have an account
-        </p>
-        <button type='submit' onClick={routeregister} >Register </button>
+        <button type='submit' style={{marginLeft:"130px" ,maxWidth:"80px"}}>Submit </button>
+        <p style={{maxWidth:"none",marginLeft:"70px"}}>If not have an account ,<button style={{maxWidth:"80px",backgroundColor:"transparent",border:"none"}} onClick={routeregister} > Register</button></p>
+       
         </div>
       </form>
       
