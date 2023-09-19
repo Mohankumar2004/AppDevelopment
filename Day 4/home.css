@@ -1,3 +1,4 @@
+/* Navbar container styles */
 .navbar {
     background-color: #333;
     color: #fff;
@@ -5,11 +6,11 @@
     position: fixed;
     top: 0;
     left: 0;
-    right: 0
+    right: 0;
     z-index: 100;
   }
   
-  
+  /* Navbar list styles */
   .nav-list {
     list-style-type: none;
     display: flex;
@@ -17,27 +18,27 @@
     padding: 0;
   }
   
- 
+  /* Navbar list item styles */
   .nav-item {
     margin: 0;
     padding: 0;
   }
   
-  
+  /* Navbar link styles */
   .nav-item a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-
+    
   }
   
-  
+  /* Navbar link hover styles */
   .nav-item a:hover {
     text-decoration: underline;
   }
   
-  
+  /* Content padding to avoid overlapping with the fixed navbar */
   .content {
-    margin-top: 60px;
+    margin-top: 60px; /* Adjust this value as needed */
   }
   

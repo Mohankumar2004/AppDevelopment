@@ -23,6 +23,7 @@ function Home() {
       </ul>
     </nav>
   );
+
 }
 export default Home;
 
