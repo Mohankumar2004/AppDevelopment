@@ -1,0 +1,13 @@
+.footer-content{
+    
+}
+.footer-sectiona,.footer-sectionb{
+    display: inline;
+}
+.footer-sectiona{
+    margin-top: 400px;
+}
+footer{
+    display: inline;
+    margin-top: 10%;
+}

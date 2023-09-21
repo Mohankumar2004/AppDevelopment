@@ -1,0 +1,38 @@
+nav{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  
+}
+li,ul,.logbt,.sigbt {
+  display: inline;
+}
+ul{
+  margin-left: 65%;
+  text-decoration: none;
+}
+.li{
+  text-decoration: none;
+}
+nav a{
+  text-decoration: none;
+}
+ul a{
+  
+  font-size: 18px;
+  color: white;
+  margin-left: 20px;
+}
+.logbt{
+  
+  margin-left: 20px;
+  height: 34px;
+  width: 70px;
+  
+}
+.sigbt{
+  
+  margin-left: 20px;
+  height: 34px;
+  width: 70px;
+}
