@@ -1,0 +1,485 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    color: #b4b4b4;
+    font-family: monospace;
+
+}
+    
+
+.topbar {
+    position: fixed;
+    top: 0;
+    right: 0%;
+    display: flex;
+    height: 5%;
+    width: 100%;
+    background-color: #e7e7e7;
+    align-items: center;
+    box-shadow:
+    66px 2px 9px rgba(0, 0, 0, 0.288);
+}
+
+.user {
+    position: absolute;
+    right: 1%;
+}
+.username-color{
+    color:rgb(145, 145, 145);
+    
+    
+}
+.username-colorv{
+    margin-right: 83%;
+    
+    margin-left: 40px;
+    color: #555555;
+
+}
+.username-iconv{
+    color: #555555;
+    margin-right: 80px;
+    margin-top: 0px;
+}
+.left-bar {
+    background-color: #e6e6e6;
+    color: #a31919;
+    margin-top: 49px;
+    height: 95%;
+    position: fixed;
+    width: 3.5%;
+    left: 0;
+    top: 0;
+    box-shadow:
+        2px 8px 9px rgba(0, 0, 0, 0.288);
+}
+
+.left-bar-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.left-bar-button {
+
+    border: none;
+    background-color: hsl(0, 0%, 51%);
+    color: white;
+    margin-bottom: 1%;
+    
+}
+
+.left-bar-button-logout {
+    border: none;
+    
+    background-color: #727272;
+    color: #ffffff;
+    position: absolute;
+    bottom: 1rem;
+
+}
+
+.nav-btn {
+    padding: 1rem;
+    width: 90%;
+    font-weight: bold;
+    font-size: 1rem;
+ 
+    box-shadow:
+        0.2px 0.2px 1.6px -2px rgba(0, 0, 0, 0.036),
+}
+
+.left-bar-button:hover {
+    border-right: 0px;
+    border-left: 3px solid #ffffff;
+    background-color: #c5c5c5;
+    color: #fff;
+}
+
+.left-bar-button-logout:hover {
+    border-right: 0px;
+    border-left: 3px solid rgb(255, 255, 255);
+    background-color: #c5c5c5;
+    color: #ffffff;
+}
+
+.main-wrapper {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-container {
+    margin-top: 0%;
+    margin-bottom: 50%;
+}
+
+.auth-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.auth-heading {
+    color: rgb(0, 0, 0);
+}
+
+.auth-form {
+    gap: 1rem;
+    padding: 60px;
+    height: 10cm;
+    
+    width: 30vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.auth-field {
+    width: 60%;
+    padding: 1rem;
+    color: #000;
+    background-color: #ffffff;
+    border: 1px solid grey;
+
+}
+
+.auth-field:focus {
+    outline: 1px solid rgb(0, 0, 0);
+}
+
+.auth-btn {
+    padding: 1rem;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bold;
+}
+.app-x-shadow{
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.auth-links{
+    text-align: center;
+    margin: 2rem;
+    font-size: 1rem;
+    
+}
+
+.auth-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color:#000000
+}
+.settingslogout{
+    margin-left:20%;
+    margin-right: 0%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    padding: 10px;
+    color: #000;
+}
+.products1{
+    border-radius: 8px;
+    width: 80%;
+    background-color: #55555525;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 8%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.products2{
+    border-radius: 8px;
+    width: 80%;
+    background-color: #55555525;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.content1{
+    color: #665353;
+    font-size: 15px;
+}
+.dash1{
+    margin-left: 10%;
+    margin-right: 80%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    padding: 40px;
+    color: #ffffff;
+    background-color: #a0a0a0;
+        border-radius: 8px;
+
+}
+.dash2{
+    margin-left: 10%;
+    margin-right: 80%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    padding: 40px;
+    color: #ffffff;
+    background-color: #a0a0a0;
+    border-radius: 8px;
+
+}
+.dash3{
+    margin-left: 10%;
+    margin-right: 80%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    padding: 40px;
+    color: #ffffff;
+    background-color: #a0a0a0;
+        border-radius: 8px;
+
+}
+.dash4{
+    margin-left: 10%;
+    margin-right: 80%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    padding: 40px;
+    background-color: #a0a0a0;
+        border-radius: 8px;
+
+}
+.topbt{
+    background-color: #00000000;
+    color: #7c7c7c;
+    padding-left: 2%;
+    outline: none;
+    
+}
+li,ul,.username1{
+    display: inline;
+}
+ul{
+    margin-left: -9%;
+    margin-right: 0%;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.username1{
+    margin-left: 20px;
+}
+ul a{
+    padding: 10px;
+    color:rgb(145, 145, 145);
+}
+.footer {
+    background-color: #94939341;
+    color: rgb(6, 6, 6);
+    padding: 20px;
+    width: 94.1%;
+    margin-left: 66px;
+    margin-top: 45px;
+    margin-right: -90%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0px 20px;
+    text-align: center;
+    font-style: oblique;
+    
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: black;
+    
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .job-search1{
+    margin-top: 85px;
+    margin-right: 90px;
+    margin-left: 5%;
+    width: 16%;
+    padding: 4px;
+    color: #000;
+    background-color: #ffffff;
+    border: 2px solid grey;
+  }
+  .searchbox{
+
+    padding: 5px;
+    padding-bottom: 40px;
+    background-color: #e0e0e0;
+  }
+  .job-search2{
+    
+    margin-top: 9px;
+    margin-right: 90px;
+    margin-left: -40px;
+    width: 16%;
+    padding: 4px;
+    color: #000;
+    background-color: #ffffff;
+    border: 2px solid grey;
+  }
+  .Search{
+    padding: 4px;
+    background-color: #dadada;
+    margin-left: -40px;
+  }
+  .privacy1{
+    padding: 15%;
+    width: 70%;
+    height: 90%;
+    background-color: #d8d8d8;
+    font-size: 16px;
+    color: #000;
+  }
+  /* TermsAndConditions.css */
+
+.terms-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .terms-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .terms-content {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .faqcss1{
+    margin-left: 100px;
+    margin-top: 150px;
+  }
+  .faqcss2{
+    margin-left: 100px;
+    
+  }
+  
+
+@media screen and (max-width:768px){
+    .username-colorv{
+        margin-right: 83%;
+        
+        margin-left: 40px;
+        color: #99989800;
+    
+    }
+    .username1{
+        color: #00000000;
+
+    }
+    ul{
+        font-size: small;
+        margin-left: 10px;
+    }
+    .left-bar {
+        background-color: #e6e6e6;
+        color: #a31919;
+        margin-top: 49px;
+        height: 95%;
+        position: fixed;
+        width: 3.5%;
+        left: 0;
+        top: 0;
+        box-shadow:
+            2px 8px 9px rgba(0, 0, 0, 0.288);
+    }
+    .left-bar-container {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0.4rem;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    
+    .left-bar-button {
+        margin-left: -20px;
+        border: none;
+        background-color: hsl(0, 0%, 51%);
+        color: white;
+        margin-bottom: 1%;
+        
+    }
+    
+    .left-bar-button-logout {
+        border: none;
+        
+        background-color: #727272;
+        color: #ffffff;
+        position: absolute;
+        bottom: 1rem;
+    
+    }
+
+}
